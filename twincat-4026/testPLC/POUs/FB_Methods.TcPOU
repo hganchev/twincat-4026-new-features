@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.6">
+  <POU Name="FB_Methods" Id="{6396cacb-4ab4-48c8-aa86-d49e12b23891}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Methods
+VAR 
+	
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="MethodDefaultValue" Id="{f032475f-3b96-49e8-b49b-354e07ef8f84}">
+      <Declaration><![CDATA[METHOD MethodDefaultValue
+VAR_INPUT
+	nValue1		: INT;
+	nValue2		: INT := 5;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+  </POU>
+</TcPlcObject>
