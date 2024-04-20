@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Refactors>
+  <Renames>
+    <RenamedType>
+      <Type guid="6396cacb-4ab4-48c8-aa86-d49e12b23891">FB_TESTMETHODS</Type>
+      <From>FB_TestMethods</From>
+      <To>FB_Methods</To>
+    </RenamedType>
+    <RenamedType>
+      <Type guid="f032475f-3b96-49e8-b49b-354e07ef8f84">METHODTESTDEFAULTVALUE</Type>
+      <From>MethodTestDefaultValue</From>
+      <To>MethodDefaultValue</To>
+    </RenamedType>
+  </Renames>
+</Refactors>
