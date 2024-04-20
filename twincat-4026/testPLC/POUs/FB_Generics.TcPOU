@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.6">
+  <POU Name="FB_Generics" Id="{cc452132-e576-4240-83b3-0233b5204bb6}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Generics
+VAR_GENERIC CONSTANT
+	nArraySize 	: INT := 10;
+END_VAR
+VAR 
+	nStrArray	: ARRAY[0..nArraySize] OF STRING(255);
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
